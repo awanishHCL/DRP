@@ -1,0 +1,100 @@
+.gn-ds2 .span8 {width: 66%!important;}
+.gn-ds2 .span4 {width: 28%!important;}		
+
+body .ub_header {
+	width: 100%;min-width: 320px;height: 60px;
+	background-color: #000;color: #000;font-family: arial;
+}  
+a{text-decoration: none;}		
+body .ub_wrapper {max-width: 1200px;display: block;width:100%;margin-left: auto;margin-right: auto;}         
+#ub_att_logo {
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAADnUlEQVR4Ab3YM5ik6xqG0bft3rZt27Zt27Zt27Zte2zbtprfWUEFdQ3ac4L1RIU7+RnxSv/mWp0LeIsujKM+YzxdeZlzWYloFtMU+RzP36RmqONXjiS3rYL2oieplbqyW2uDjqee1Ebq2LQlQUuyBBeS2lAPyilgqaYGLcVzBDlcxSRSK4zkekoINqILSzQWVMq/fEJkKeMoXqA900kLUM0QvuQ2diaPyFiZXiT+obChoPtITKSCaEAFq7MWG7E6y5NLzI1CzmEiKcu9DQW9R8r4lGKilVbkCoaS5kb3hoI2YxYpoz+nsRjRRIuyD7fxJ3WkBnxEAGFYksjYnn6kLDV0532e496Mx3meD/mP8aRmmMmmBHtlB51JZCnkCoaTFpJ+bEuwN38RYVahNzkEAHnsxdMMbMNz0YUUEazPOOpZNcx5JM4iGrEc+3Itr/MnA5hENSmjnkkM4See52zWJjJyOIOppIzTwtxLoooTiFYqIBpQxNF0JgFwc5gVmEjKeItViDaUy1Y8zFjSAhwfJtiEUaSMWj7jMCqJZspnE87kLcaRGjGQ4uwfWZxXqSNlqeFvnuYyjuFA9mRvjuJs7uJt/mM2qRmGsT67hNmSyLIeLzKTtJDV8DyLsgQdwrxPDgFAKYfyGv1Jbagbd7Aiwbr0ZGSYzlxLNGIJ9uUSHuID/qEvA5nAZOYwifH04Tfe5mYOYwUio4Q7qCLRMcxjJK4k/k8quJRhpCwvh1mcgSTeZzliIdmSh5hMmhv7ZZ+BO5GYzj2sTLRSMbtyNwNIDfiAmPvL91JFoo7fuJ59WZZoQDkbczR38xtzSE3wIYtnBxURGWvxKnNIAEylDx0y+jCKGaQWGMcprMl22UF5HEBkWZZraE9qQ/X8x2mUsD0/kEsmCDbiRvIIAFbiFJ7mL8aTmqCWgXzL45zIigRL8hBz2I7ICgL24Dd2JRpRyhpswc7syTZsyuosSyEBwMrcwWQSVxKAmdv6dOVvTmYxopVW4iy+pY5EDZcRDQdBAeczlBp+516OZFMWJwAoYjm25Uiu5R0GkgD4l21b8mxfyAl8SxUJgBlMJTVBFV9yACsSLQnaiFUJKtmf2/iUnswgLcBYfudxjmRJDuZEilsWBHvwNJeyIQVElmIWY2VWZxmKCCrZm0f4gb3a6oVVHsfxF1V05j0e516u52bu5Rm+oh91/M1x5BNtFQSwGhfwJl0YTy01TKAbb3MBqxLN8T/Xva8aBLpikwAAAABJRU5ErkJggg==');
+	content: "";display: inline-block;width: 36px;height: 36px;top: 11px;left: 2px;position: relative;
+}  
+#ub_att_logo:after {content: '';display: inline-block;height: 38px;width: 1px;position: absolute;left: 55px;top: 0;background: radial-gradient(circle,#999 0,transparent 100%);}
+.attLogo{margin-right: 53px;display: inline-block;}        
+.shopAndSupport{display: inline-block;height: 39px;margin-left: 20px;}		
+.icon-hamburger{
+	background-image: url(../../images/att-sprite.jpg)!important;			
+	background-position: -159px -36px; width: 17px; height: 16px; 
+	display: inline-block;vertical-align: middle;margin-top: -8px;margin-right: 10px;
+}
+.shopAndSupportText{display: block;font-size: 18px;color: #fff;margin-top: -4px;float: right;}
+.searchBar{width: 100%;max-width: 300px;display: inline-block;margin-left: 19.5%;margin-top: 8px;vertical-align: middle;}
+#z1-searchfield{
+	background-color: #000;color: #fff;box-shadow: 2px 3px 2px -2px rgba(0,0,0,.08) inset;			
+	border: 1px solid #999;width: 100%;
+	float: left;padding: 0 10.5% 0 15px;height: 36px;border-radius: 6px;
+}
+.btn-search {
+    float: right; background-image: url(../../images/att-sprite.jpg)!important; 
+    background-position: -107px -73px;  background-repeat: no-repeat;   margin-right: 7px;
+    border: none;  height: 30px;  width: 34px; margin-top: -35px;}
+
+.pull-right{font-size: 14px;}
+.cartIcon{line-height: 60px;height: 60px;vertical-align: baseline;display: inline-block;}
+.icon-fullcart{
+	background-image: url(../../images/att-sprite.jpg)!important;background-position: -0px -36px; width: 26px; height: 27px; 
+	display: inline-block;vertical-align: middle;margin-right: 10px;
+}		
+.signInBlock{font-size: 14px;color: #fff;height: 60px;line-height: 60px;margin: 0 15px 0 5px;display: inline;}
+.z1-profile-cta{font-size: 14px;color: #fff;height: 60px;line-height: 60px;}
+.icon-people-oneperson{			
+	background-image: url(../../images/att-sprite.jpg)!important;
+	background-position: -192px -36px; width: 14px; height: 21px; 
+	display: inline-block;vertical-align: middle;
+	margin-top: -3px;margin-right: 10px;
+}
+.z1-profile-text{margin-left: -5px;font-size: 14px;color: #fff;line-height: 60px;text-align: left;}
+#z1-watch-text{margin-right: 20px;line-height: 50px;font-size: 14px;display: inline;}
+#z1-watch-text a.watch-tv-link {vertical-align: sub;font-size: 16px;color: #fff;height: 60px;line-height: 60px;display: inline-block;}		
+.icon-building-midsizedbuilding{
+	background-image: url(../../images/att-sprite.jpg)!important;
+	background-position: -51px -36px; width: 25px; height: 26px;
+	margin-top: -8px;margin-right: 10px;margin-left: -1px;
+}
+.icon-right {
+	background-image: url(../../images/att-sprite.jpg)!important;
+	background-position: -159px -52px; width: 11px; height: 20px; 
+	display: inline-block;vertical-align: middle;margin-top: -8px;margin-left: 8px;
+}
+.pull-left{ float:left;}
+@media (max-width: 1077px)
+{
+	.searchBar{margin-left: 14%;}
+	.pull-right{margin-right: 4%;}
+	#z1-searchfield{width: 92%;}
+	.btn-search{background-position: 0% 0%;width: 54px;}
+	.shopAndSupport{margin-left: 0px;}
+	.attLogo{margin-right: 35px;}
+}
+@media (max-width: 950px)
+{
+	.searchBar{margin-left: 6%;max-width: 260px;}
+	#z1-searchfield{width: 83%;}
+	.btn-search{width: 36px;margin-right: 42px;}
+	.pull-right{margin-right: 3%;}
+	.gn-ds2 .span8 {width: 64%!important;}
+	#ub_att_logo:after{left: 50px;}
+	.attLogo{margin-right: 30px;}
+	.gn-ds2 .span4 {width: 33%!important;}
+}
+@media (max-width: 816px){
+	#z1-searchfield{display:none;}
+	.btn-search{margin-top: 13px;margin-right: 0px;}
+	.searchBar{float: right;max-width: 42px;}
+	.gn-ds2 .span4 {width: 39%!important;}
+	.gn-ds2 .span8 {width: 57%!important;}
+}
+@media (max-width: 760px){
+	#ub_att_logo:after{background: none;}
+	.shopAndSupportText{display: none;}
+	#z1-watch-text{display:none;}
+	.gn-ds2 .span4 {width: 142px !important;}
+	.pull-right{margin-right: 0px;}
+	.signInBlock{margin: 0 15px 0 25px;}
+	.attLogo{float: right;}
+	.searchBar{float: none;}
+	.shopAndSupport{margin-left: 17px;margin-top: 17px;}
+	.btn-search{margin-top: 4px;margin-right: 18px;}
+}

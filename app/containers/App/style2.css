@@ -1,0 +1,160 @@
+@font-face {
+  font-family: 'Omnes-ATT-W02-Light';
+  src: url('../../font/Omnes_ATTW02Light.eot?#ieonly') format('eot'), url('../../font/Omnes_ATTW02Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Omnes-ATT-W02';
+  src: url('../../font/Omnes_ATTW02.eot?#ieonly') format('eot'), url('../../font/Omnes_ATTW02.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Omnes-ATT-W02-Medium';
+  src: url('../../font/Omnes_ATTW02Medium.eot?#ieonly') format('eot'), url('../../font/Omnes_ATTW02Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Omnes_ATTW02Italic';
+  src: url('../../font/Omnes_ATTW02Italic.eot?#ieonly') format('eot'), url('../../font/Omnes_ATTW02Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.UnlockTextBox {
+	background-color: #fff;
+	border: 1px solid #b7b7b7;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	display: inline-block;
+	margin-bottom: 0;
+	vertical-align: middle;
+	transition: border linear .2s,background-color linear .2s;
+	box-sizing: border-box;
+	color: #333;
+	border-radius: 4px;
+	padding: 5px 6px 3px;
+	margin-right: 6px;
+	margin-top: 10px;
+	height: 36px !important;
+	font-size: 16px !important;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 20px !important;
+	width: 100%;
+}
+
+.UnlockRadio{
+	margin-left: 20px;
+	position: absolute;
+	display: inline-block;
+	margin-bottom: 0;
+	vertical-align: middle;
+	border-radius: 100%;
+	border: none;
+	cursor: pointer;
+	width: auto;
+	background-image: none;
+	border-radius: 100%;
+	border: 1px solid #d2d2d2;
+	display: inline-block;
+	height: 24px;
+	left: 0;
+	position: relative;
+	margin-right: 10px;
+	top: 0;
+	width: 24px;
+}
+
+.UnlockTextErrors {
+color: #F00;
+}
+
+.thkanks-email{color:#1b7e28;font-size:18px; line-height:25px;}
+.thkanks-email img{float:left; margin-right: 20px;}
+.device-unlock-portal-tks ul.number{ list-style:decimal; padding:0 0 0 25px;}
+.device-unlock-portal-tks .warning-email{margin:20px 0;}
+
+.link {
+    color: rgb(5, 104, 174);
+	text-decoration: none;
+	font-size: 18px;
+}
+
+/*Responsive starts*/
+.UnlockTextErrors > span{ display:block; font-size:14px;}
+#app .Div__Div-kfqSaA ,#app .kFacat { padding-top:30px;}
+[class*="FormContainer"] {
+		margin-left:0 !important; margin-right:0 !important;
+	}
+[class*="FormContainer"] > div{ margin-top:0 !important; margin-left:0 !important;}
+.UnlockTextBox{ margin-bottom:5px;}
+form [class*="CheckBoxLabel"]{ margin-top:0px;}
+form [class*="UnlockButtonContainer"]{ padding-top:0; padding-right:0;}
+form [class*="UnlockButtonContainer"]  button[type="submit"]{ float:right;}
+[class*="UnlockFormGroup"] { width:100% !important;}
+.formLabel{ width:100%; display:inline-block; margin:0; padding-top:0 !important;}
+.formLabel .formLabelfield ,.formLabelfieldCustomer{ font-size:14px;display:inline-block; width:48%; float:left;}
+.formLabel .formLabelfield:last-child{ margin-left:20px;}
+.formLabel .formLabelfieldCustomer,.formLabel .formLabelfield { padding:0 !important; margin-top:40px;}
+
+.accountInfo{ padding:0 20px;}
+.dialinn{ padding-top:0 !important;}
+.acctinfotxt{ padding-top:10px !important}
+.dialinn > div{ margin-bottom:10px; font-style:italic;}
+.acctinfotxt { padding-top:60px !important; padding-bottom:10px;}
+.acctinfotxt + .acctinfotxt { padding-top:5px !important;padding-bottom:0px !important;}
+.acctinfotxt [class*="Text"] { font-size:16px;}
+.thkanks-email{ margin-bottom:20px;}
+.forgetpass{ margin-top:0; padding-top:0 !important;}
+.unlocknumbersec , .imeiportalsec { font-size:14px;} 
+.checkunlockformsec .txtsec ,.unlocknumbersec,.imeiportalsec { padding-top:0!important;}
+.checkunlockformsec .txtsec{ font-style:italic;}
+.checkunlockformsec .UnlockTextBox{ width:40%;}
+*{ margin:0;padding:0;}
+
+
+
+[class*="UnlockWrapper"] [class*="Header1"], [class*="UnlockWrapper"] {
+    max-width: 1024px !important;
+    width: 100% !important;
+}
+ 
+
+@media screen and (max-width: 1024px)
+{
+	#app .UnlockStep1__UnlockWrapper-OXEOr, [class*="UnlockWrapper"]{ max-width:1024px; width:100%;padding-right:15px; padding-left:15px; box-sizing: border-box;}
+	#app .Div__Div-kfqSaA ,#app .kFacat { padding-top:30px;}
+	#app .Header2__Header2-gdIPKr,#app .OZDfc{ margin-top:0;}
+	#app .StepIndicator__StepIndicator-iqSufh,#app .gbzyHS{ margin-top:30px; margin-bottom:40px;}
+	[class*="StepItemText"] {
+		display:none !important; font-size:17px !important;
+	}
+	li:first-child [class*="StepItemText"] {
+		display:block !important; bottom:-29px !important;position:absolute;
+	}
+	[class*="CenterDiv"] {
+		width:auto !important;
+	}
+	
+	[class*="FormContainer"] > div{ width:100% !important; margin-top:0 !important; margin-left:0 !important;}
+	
+	form [class*="UnlockButtonContainer"]{ padding:0; overflow:hidden;}
+	
+	form [class*="UnlockButtonContainer"]  button{width:100%; margin-bottom:10px; }
+	.formLabel .formLabelfield ,.formLabelfieldCustomer{ font-size:14px;display:block; width:100%;}
+	.formLabel .formLabelfield:last-child{ margin-left:0px;}
+	.accountInfo{ padding:0;}
+	.accountInfo  input[type="radio"]:first-child{ margin-left:0;}
+	[class*="RadioLabel"] { margin-right:10px;}
+.unlocknumbersec , .imeiportalsec { width:auto !important;}
+.checkunlockformsec .UnlockTextBox{ width:90%;}
+	[class*="UnlockHomePage"] [class*="Header1"]{  margin-top:0px !important; font-size:30px !important;}
+	[class*="UnlockHomePage"] [class*="Header2"]{ font-size: 16px !important; margin-top:30px 0 30px 0 !important;}
+	[class*="UnlockParentDiv"]{ display:block !important;}
+	[class*="UnlockParentDiv"] > div{ width:100% !important;float:none !important; margin-bottom:20px;}
+	[class*="UnlockParentDiv"] > div + div{ margin-bottom:0;}
+	
+
+}
+/*responsive ends*/
