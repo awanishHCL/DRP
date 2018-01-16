@@ -1,7 +1,7 @@
 import React from 'react';
 
-function DeviceBrandFilter() {
-    return (
+//function DeviceBrandFilter() {
+    const DeviceBrandFilter = (props) => (
         <div className="container device-filter-container">
     <div className="device-filter" >
         <div className="device-filter-header"><button className="device-filter-label">Filter by brand<span></span><i className="device-filter-arrow" aria-label="show brands"></i></button>
@@ -74,6 +74,6 @@ className="ng-pristine ng-untouched ng-valid ng-empty"/><i className="skin"></i>
     </div>
     </div>
     );
-  }
+ // }
 
 export default DeviceBrandFilter;

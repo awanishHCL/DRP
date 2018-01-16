@@ -101,10 +101,8 @@ let deviceRecommenderService= DeviceRecommenderService;
     */
     import PropTypes from 'prop-types';
     function DeviceProductTiles(repos) {
-        var listItems={};
-        console.log(repos);
-        console.log('repos--- inside tiles');
-        
+        var listItems=1;
+
         if(repos && repos.length>0){
      listItems = repos.map(function(item) {
             return (
@@ -141,6 +139,7 @@ let deviceRecommenderService= DeviceRecommenderService;
                 </div> 
               </div>
             );
+           
           });
         }
         return (
@@ -151,7 +150,7 @@ let deviceRecommenderService= DeviceRecommenderService;
               </div>
           )
         console.log(repos);
-        
+      //  this.forceUpdate();
         console.log('---this');
         //return null;
       }
