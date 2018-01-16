@@ -47,6 +47,7 @@ export class DeviceRecPage extends React.PureComponent {
         brand:[]
     }
     
+
     
     componentDidMount() { 
 
@@ -55,29 +56,6 @@ export class DeviceRecPage extends React.PureComponent {
 
       });  
 
-     // onChangeBrand: (evt) => (changeStateValue(evt))
-      const onChangeBrand = function(brand,event){
-       // console.log(event.target.checked);
-console.log(brand);
-var selectedBrand=brand;
-if(event.target.checked) {
-  if(selectedBrands.indexOf(selectedBrand) == -1) {
-    selectedBrands.push(selectedBrand);
-    emitSelectedBrands(selectedBrands);
-  }
-}
-else {
-  if(selectedBrands.indexOf(selectedBrand) !== -1) {
-    var brandIndex = selectedBrands.indexOf(selectedBrand);
-    selectedBrands.splice(brandIndex, 1);
-    emitSelectedBrands(selectedBrands);
-  }
-}
-
-console.log(this.state);
-
-
-      }
      
       const getDevicePriceDetails = function (rexDevices) {
 console.log('inseide---------------------------')
@@ -251,6 +229,30 @@ this.forceUpdate();
         
       /*  return <UserInfoSec data={posts} />;
           this.setState({ posts : UserInfoSecJson });  */
+    // onChangeBrand: (evt) => (changeStateValue(evt))
+    const onChangeBrand = function(brand,event){
+      // console.log(event.target.checked);
+console.log(brand);
+var selectedBrand=brand;
+if(event.target.checked) {
+ if(selectedBrands.indexOf(selectedBrand) == -1) {
+   selectedBrands.push(selectedBrand);
+   emitSelectedBrands(selectedBrands);
+ }
+}
+else {
+ if(selectedBrands.indexOf(selectedBrand) !== -1) {
+   var brandIndex = selectedBrands.indexOf(selectedBrand);
+   selectedBrands.splice(brandIndex, 1);
+   emitSelectedBrands(selectedBrands);
+ }
+}
+
+console.log({...this.props});
+
+     }
+
+
       }
   
   render() {
@@ -262,6 +264,8 @@ this.forceUpdate();
       onChangeBrand:''
     };
   
+
+
     return (
         <div>
      <div className="upUserInfoContainer ng-scope">
